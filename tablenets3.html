@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table nested 3</title>
+</head>
+<body>
+        <table border="1">
+            <tr>
+                <td>Column 1</td>
+                <td align="center">Column 2</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Colspan Column</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Rowspan  <br> Cell</td>
+                <td align="center">CEll 2</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <tr align="center">
+                            <td bgcolor="yellow">Inner Column <br> Heading 1</td>
+                            <td>Inner Column Heading 2</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Inner Data Cell <br> 1</td>
+                            <td>
+                                <table border="1">
+                                    <tr align="center">
+                                        <td>Inner Most <br> Column Heading <br>1</td>
+                                        <td>Inner Most <br> Column Heading <br> 2</td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Innermost Data <br> Cell 1 </td>
+                                        <td>Innermost Data <br>Cell 2</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
